@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Routine Registration</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(228, 227, 227, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6">
+                <div class="image-container">
+                    <img src="https://i.pinimg.com/564x/f2/cb/a2/f2cba20e682701fbaefa7781b7bb9114.jpg" alt="Fitness Image">
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card p-4 shadow-lg">
+                    <div class="text-center mb-4">
+                        <i class="fas fa-dumbbell fa-3x animated-icon"></i>
+                        <h3>Health+ : Your Daily Routine</h3>
+                        <p>Get customized  exercise, and yoga suggestions!</p>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="bodyType">Body Type</label>
+                            <select class="form-control" id="bodyType">
+                                <option>Select your body type</option>
+                                <option>Ectomorph</option>
+                                <option>Mesomorph</option>
+                                <option>Endomorph</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="dailyActivity">Daily Activity Level</label>
+                            <select class="form-control" id="dailyActivity">
+                                <option>Select your daily activity level</option>
+                                <option>Sedentary</option>
+                                <option>Moderate</option>
+                                <option>Active</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exercisePreference" class="form-label">Exercise Preference</label>
+                            <select class="form-control" id="exercisePreference">
+                                <option>Select your exercise preference</option>
+                                <option>Yoga</option>
+                                <option>Gym</option>
+                                <option>Outdoor Activities</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Timeslots" class="form-label">TimeSlot</label>
+                            <select class="form-control" id="TimeSlot">
+                                <option>Select your TimeSlots to do Activity</option>
+                                <option>6:00am-9:00am</option>
+                                <option>6:00pm-7:00pm</option>
+                                <option>Outdoor Activities</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="goal">Fitness Goal</label>
+                            <input type="text" class="form-control" id="goal" placeholder="Your fitness goal">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
